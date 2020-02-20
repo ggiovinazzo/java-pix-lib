@@ -7,6 +7,14 @@
   <version>0.1</version>
   <packaging>jar</packaging>
   
+  <distributionManagement>
+     <repository>
+       <id>github</id>
+       <name>GitHub Java Pix Lib Packages</name>
+       <url>https://maven.pkg.github.com/ggiovinazzo/java-pix-lib</url>
+     </repository>
+  </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jdk.version>10</jdk.version>
